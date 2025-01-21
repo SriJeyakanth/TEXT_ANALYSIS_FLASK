@@ -1,0 +1,20 @@
+# Install Flask for web app functionality
+pip install flask
+
+# Install TextBlob for sentiment analysis
+pip install textblob
+
+# Install VADER sentiment analysis tool
+pip install vaderSentiment
+
+# Install Google Generative AI SDK
+pip install google-generativeai
+
+# Install other required packages
+pip install random json os
+
+# Install additional Flask-related tools (optional, for better functionality)
+pip install flask-cors flask-restful
+
+# NOTE: If the user needs language models for TextBlob
+python -m textblob.download_corpora
